@@ -3,14 +3,7 @@
 ---
 
 // Use @import for compatibility with GitHub Pages (libsass)
+@import "bordo";
 @import "base";
 
-// Import light theme and include its variables first
-@import "light";
 @include theme();
-
-// Then import dark theme and include inside media query
-@import "dark";
-@media (prefers-color-scheme: dark) {
-  @include theme();
-}

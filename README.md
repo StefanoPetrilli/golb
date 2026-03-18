@@ -1,6 +1,6 @@
 # jekyll-theme-console
 
-A minimal, console‑inspired Jekyll theme for hackers, developers and other cool kids.
+A minimal, console‑inspired Jekyll theme with a single Noctis Bordo-inspired palette.
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-console.svg?color=informational)](https://rubygems.org/gems/jekyll-theme-console)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
@@ -9,22 +9,13 @@ A minimal, console‑inspired Jekyll theme for hackers, developers and other coo
 
 ## Demo
 
-- [dark style demo](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) ([source code / template](https://github.com/b2a3e8/jekyll-theme-console-demo-dark))
+- [theme demo](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) ([source code / template](https://github.com/b2a3e8/jekyll-theme-console-demo-dark))
 
-  [<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-dark.png" width="350" alt="Dark style screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/)
-- [light style demo](https://b2a3e8.github.io/jekyll-theme-console-demo-light/) ([source code / template](https://github.com/b2a3e8/jekyll-theme-console-demo-light))
-
-  [<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-light.png" width="350" alt="Light style screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-light/)
-- [hacker style demo](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) ([source code / template](https://github.com/b2a3e8/jekyll-theme-console-demo-hacker))
-
-  [<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-hacker.png" width="350" alt="Hacker style screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
-
-Note: The theme also includes a Nord variant (`style: nord`).
+  [<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-dark.png" width="350" alt="Theme screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/)
 
 ## Features
 
-- Four styles: `dark` (default), `light`, `hacker`, `nord`
-- Optional auto light/dark via `prefers-color-scheme`
+- Single built-in Noctis Bordo-inspired dark style
 - Strict, extendable Content Security Policy
 - Optional Google Fonts (disable for full self‑hosting)
 - Generic analytics/tracker include (Matomo, Plausible, etc.)
@@ -77,8 +68,6 @@ Add these to `_config.yml` as needed:
 
 - `header_pages`: list of page paths to show in the top menu
 - `footer`: HTML string rendered in the footer
-- `style`: `dark` (default), `light`, `hacker`, or `nord`
-- `listen_for_clients_preferred_style`: `true` to auto‑switch using the OS preference
 - `disable_google_fonts`: `true` to avoid requests to Google Fonts
 - `tracking`: generic tracker configuration (see Security & CSP below)
 - `csp_extra`: extra CSP directives to append to the built‑in policy
@@ -89,9 +78,6 @@ Example:
 header_pages:
   - index.md
   - about.md
-
-style: dark # dark (default), light, hacker, or nord
-listen_for_clients_preferred_style: true # false (default) or true
 
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 disable_google_fonts: false
@@ -124,7 +110,7 @@ Follow these steps to customize:
 2. Edit templates in `_layouts` for HTML changes
 3. Edit styles in `_sass` and `assets`
    - Global variables (font size, container width) live in `_sass/base.scss`
-   - Style‑specific variables are in `_sass/_dark.scss`, `_sass/_light.scss`, `_sass/_hacker.scss`, `_sass/_nord.scss`
+  - Theme variables are in `_sass/_bordo.scss`
    - Fonts are loaded with `<link>` tags; set `disable_google_fonts: true` to avoid external font requests
 
 Optional tweaks:

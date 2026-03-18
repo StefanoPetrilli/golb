@@ -1,0 +1,39 @@
+/**
+ * Noctis Bordo-inspired theme variables
+ */
+
+@mixin theme() {
+  :root {
+    --background-color: #272022;
+    --surface-color: #322a2d;
+    --base-color: #cbbec2;
+    --text-color: #cbbec2;
+    --muted-text-color: #a48e96;
+    --placeholder-color: #a48e96;
+    --accent-color: #f18eb0;
+    --accent-muted-color: #997582;
+    --link-color: #f18eb0;
+    --hover-text-color: #1f191b;
+    --border: dashed 1px rgba(153, 117, 130, 0.9);
+    --selection-background: #88445c;
+    --selection-text: #edebff;
+    --code-color-1: #8b747c;
+    --code-color-2: #47393e;
+    --code-color-3: #e3541c;
+    --code-color-4: #501502;
+    --code-color-5: #df769b;
+    --code-color-6: #d67e5c;
+    --code-color-7: #e66533;
+    --code-color-8: #f18eb0;
+    --code-color-9: #16b673;
+    --code-color-10: #936c7a;
+    --code-color-11: #bb778f;
+    --code-color-12: #e4b781;
+    --code-color-13: #49d6e9;
+    --code-color-14: #7060eb;
+    --code-color-15: #49e9a6;
+    --code-color-16: #d5971a;
+    --code-color-17: #49ace9;
+    --code-color-18: #715b63;
+  }
+}
