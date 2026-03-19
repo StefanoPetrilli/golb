@@ -11,3 +11,6 @@ gem 'webrick'
 # Pin Jekyll to a version compatible with converter 2.x.
 gem 'jekyll', '~> 4.2.2'
 gem 'jekyll-sass-converter', '~> 2.2'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
