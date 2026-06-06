@@ -12,12 +12,13 @@ connect-src 'self';
 base-uri 'self';
 form-action 'none';
 img-src 'self' https: data:;
-style-src 'self' https://fonts.googleapis.com;
+style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
 font-src 'self' https://fonts.gstatic.com data:;
 media-src 'self';
 object-src 'none';
 child-src 'self';
-script-src 'self';
+frame-src 'self' https://www.youtube.com;
+script-src 'self' https://cdn.jsdelivr.net;
 {%- endcapture -%}
 {%- capture csp_final -%}{{ csp | strip | replace: '\n', ' ' }} {%- if site.csp_extra %} {{ site.csp_extra }}{%- endif -%}{%- endcapture -%}
 <meta http-equiv="Content-Security-Policy" content="{{ csp_final | strip }}" />
@@ -38,5 +39,10 @@ script-src 'self';
     {%- include footer.html -%}
 
     </div>
+
+    {%- if page.mermaid -%}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <script src="{{ '/assets/mermaid-init.js' | relative_url }}"></script>
+    {%- endif -%}
   </body>
 </html>

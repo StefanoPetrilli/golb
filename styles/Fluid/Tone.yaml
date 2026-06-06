@@ -1,0 +1,12 @@
+extends: substitution
+message: "Keep the tone conversational. Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  nevertheless: but / still
+  consequently: so
+  furthermore: also / plus
+  subsequent to: after
+  utilize: use
+  in order to: to
+  as a consequence of: because of

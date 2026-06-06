@@ -8,7 +8,7 @@ $base-font-size:       12.5px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
-$container-max-width:  600px !default;
+$container-max-width:  900px !default;
 
 /**
  * Global
@@ -158,3 +158,65 @@ pre { background-color: var(--surface-color);  border: none;  padding: 0;  margi
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+/**
+ * Mermaid diagrams
+ */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  background: var(--surface-color);
+  overflow-x: auto;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure mermaid text uses blog font */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+  stroke-width: 2px;
+}
+
+.mermaid .edgeLabel {
+  background-color: var(--surface-color) !important;
+  color: var(--text-color);
+  padding: 4px 8px;
+}
+
+/**
+ * Video containers - side by side layout
+ */
+.video-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.video-container > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Responsive: stack videos vertically on small screens */
+@media only screen and (max-width: 768px) {
+  .video-container {
+    flex-direction: column;
+  }
+}

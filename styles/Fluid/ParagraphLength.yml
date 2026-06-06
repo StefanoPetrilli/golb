@@ -1,0 +1,12 @@
+extends: occurrence
+message: "Paragraph is too dense. Break it up to improve online scannability."
+link: "https://fzakaria.com/2026/06/01/every-byte-matters"
+level: warning
+scope: text
+
+# This regex matches a block of text containing 65 or more words 
+# before hitting a blank line block separator.
+token: '([^\n]+\n?){65,}'
+
+# Ensure it triggers if it finds 1 or more of these dense blocks
+max: 0

@@ -1,0 +1,5 @@
+extends: existence
+message: "Avoid academic footnote brackets like '%s'. Link text directly or mention the tool/paper inline."
+level: warning
+tokens:
+  - '\[\d+\]'
