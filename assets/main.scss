@@ -7,3 +7,22 @@
 @import "base";
 
 @include theme();
+
+/* Post figure styling */
+article.post figure {
+  margin: 24px 0;
+  text-align: center;
+}
+article.post figure img {
+  max-width: 100%;
+  height: auto;
+  margin: 6px 0;
+  border: 1px solid var(--surface-color);
+}
+article.post figure figcaption {
+  font-size: 0.85em;
+  color: var(--code-color-1);
+  font-style: italic;
+  margin-top: 8px;
+  line-height: 1.5;
+}
