@@ -217,7 +217,7 @@ a  3  b  1  c  4
 
 ### Discrete Cosine Transformation
 
-The DCT is the most widely used linear transform in the field of lossy data compression. It can be adapted to represent an arbitrary piece of information as the sum of cosine function. Although it is widely used for many digital content, what makes it particularly efficient in the field of image and video compression is that in general, most of the information is very skewed in a few low frequencies.
+The DCT is the most widely used linear transform in the field of lossy data compression. It can be adapted to represent an arbitrary piece of information as the sum of cosine function. Although it is widely used for many digital content, what makes it particularly efficient in the field of image and video compression is that: in general most of the information is very skewed in a few low frequencies.
 
 Rather than applying the transformation to the image as a whole, in `JPEG` and in `H.26x` it is applied on sub-blocks of the image. In `H.264`, this is applied either on 4x4 or 8x8 sub-macroblocks. This is known as blocked DCT.
 
@@ -375,3 +375,7 @@ To understand how this is implemented in `H.264`, several concepts need to be in
 
 In `H.264`, the choice on how to interleave different kind of frames is entirely left to the encoder and is not defined by the `H.264` standard. But, generally I-frames are found once every second. More severe compression might have a single `I-Frame` at the beginning of the stream and only rely on `P-Frames` for the entire video.
 `I-Frames` are the least efficient to encode, but, are also the only ones that are self-contained and can be decoded without any other information from other frames. If we want to decode an arbitrary `P-Frame` we first need to decode all the frames between the last `I-Frame` and the frame we want to decode. As especially when used in context where data can be lost during a network transmission, having more `I-Frames` is better for reliability.
+
+## Conclusion
+
+If I picked your interest, go read my [full thesis](https://upcommons.upc.edu/entities/publication/2624a9ed-4e08-41e7-9aef-3636beec85e8).
