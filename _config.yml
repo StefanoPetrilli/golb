@@ -1,5 +1,7 @@
 # Example Site settings
 
+url: "http://stefano.petrilli.xyz"
+
 header_pages:
   - index.md
   - about.md

@@ -21,10 +21,10 @@ RUN apt-get update \
 
 WORKDIR /srv/jekyll
 
-# Copy the source before installing to ensure the gemspec's file globs resolve
-COPY . /srv/jekyll
+# Copy only dependency manifests so the bundle-install layer stays cached
+# across source changes. The site source is mounted at runtime via compose.
+COPY Gemfile Gemfile.lock jekyll-theme-console.gemspec ./
 
-# Install gems (after copying) so the local gemspec can be evaluated correctly
 RUN bundle install
 
 EXPOSE 4000 35729
