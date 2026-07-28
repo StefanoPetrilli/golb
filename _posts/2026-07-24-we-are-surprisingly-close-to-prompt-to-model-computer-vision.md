@@ -128,4 +128,4 @@ There is room for improvement. But I think it proves the point: all you need to 
 
 The current limitation is the image generation model. FLUX.2 klein 9B punches way above his weight but if I had a more generous VRAM budged I could have runned model that generate images that are more photorealistic. I'd bet there is plenty of low-hanging fruit in this workflow that would improve the end result. Switching to a better image generation model is just one of them.
 
-It is interesting to see how this is going to pan out as more capable diffusion and segmentation models are released. In the meantime, if you want to have a closer look, everything is in this repo: [github.com/StefanoPetrilli/numeri](https://github.com/StefanoPetrilli/numeri).
+It is interesting to see how this is going to pan out as more capable diffusion and segmentation models are released. In the meantime, if you want to have a closer look, everything is in this repo: [github.com/StefanoPetrilli/promptsmith](https://github.com/StefanoPetrilli/promptsmith).
