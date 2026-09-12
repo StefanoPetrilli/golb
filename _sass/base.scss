@@ -214,6 +214,17 @@ pre { background-color: var(--surface-color);  border: none;  padding: 0;  margi
   margin-bottom: 10px;
 }
 
+/* Bio: photo left, text right */
+.bio { display: flex; gap: 20px; align-items: flex-start; }
+.bio-photo { flex: 0 0 40%; }
+.bio-photo img { width: 100%; height: auto; display: block; }
+.bio-photo p { margin: 6px 0 0; font-size: 0.9em; color: var(--muted-text-color); }
+.bio-text { flex: 1; min-width: 0; }
+@media only screen and (max-width: 768px) {
+  .bio { flex-direction: column; }
+  .bio-photo { flex: none; width: 100%; }
+}
+
 /* Responsive: stack videos vertically on small screens */
 @media only screen and (max-width: 768px) {
   .video-container {
