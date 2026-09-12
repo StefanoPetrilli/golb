@@ -14,11 +14,11 @@ This is the oldest and most historical part of the city. You can start the sighs
 [Plaza Catalunya](https://maps.app.goo.gl/FNy8pLboXpNP9JzA7) and go down the Rambla. To the East,
 there is the gothic district and to the West the Raval.
 This area of Barcelona has been settled for over 2000 years. If you pay close attention to your
-environment while walking in this area you can notice how history is stratified in this area.
+environment while walking in this area you can notice how history stratified.
 
 The city was founded by romans and was encircled by roman walls untill medieval times.
 [You can see a map of where the roman walls used to be at this link](http://cartaarqueologica.bcn.cat/736).
-Part of these walls are still standing to this day and are often mymetized with the environment.
+Part of these walls are still standing to this day and are often mymetized with more modern buildings.
 The remainings are more or less visible, one of the best place to have a clear view at it is
 [here](https://maps.app.goo.gl/myW76Wmx5ES2o2NXA) where a roman wall is now the base for a more
 recent building and [here](https://maps.app.goo.gl/bnA9kYUvPEEL9tTg6) where roman columns have been
@@ -31,17 +31,45 @@ district.
 And finally, from modern times you can see the [Mercado de Santa Caterina](https://maps.app.goo.gl/g5y9c6AVBQLvV6Wd7),
 [Plaza Reial](https://maps.app.goo.gl/hB8gWdyDXd6Lo7ka7) and [Palau Guell](https://maps.app.goo.gl/JEQT76NDDG4w7ESs5).
 
-
+I reccomend getting a guided tour of the district and then walking and exploring it at your own peace.
 
 ## Day 2: Gaudi And Gracia
 
-## Day 3: Plaza Espany And Montjuic
+When talking about Barcelona, Gaudi is surely one of the first things that come to mind.
+
+The buildings that everyoen visit are [Palau Guell](https://maps.app.goo.gl/JEQT76NDDG4w7ESs5),
+[Casa Batllo](https://maps.app.goo.gl/JCwJa3rxCUr6Rk9k8), [Casa Mila](https://maps.app.goo.gl/Fbz6Q45hTt4taHyU8)
+and the [Sagrada Familia](https://maps.app.goo.gl/3KNbnZqv2wZ5diPe7).
+
+The Sagrada Familia is definitely the most impressive of them all and a must see in Barcelona.
+
+From my POV, the buildings are nice but if you only look at them you will miss 75% of the beauty.
+Gaudi was a mad man and his works were totally revolutionary for the time he lived in so all his
+works also carry story of how society reacted to them and how he challanged authority, which, I
+personally like more than the building themself.
+In addition, his work is full of symbolysm and there are a lot of red herrings in his works.
+
+It is not possible to grasp these symbolism at first sight. For this reason, I reccomend to also
+book a guided tour of Gaudi's work.
+Entering the Sagrada Familia is worth it but not a must. If you decide to enter, you have to book
+the tickets many weeks in advance.
+
+Gracia is a district of Barcelona that was less touched from tourists and it preserves more than
+other areas indigenous population. You can take a stroll in the area. [Plaza del Sol](https://maps.app.goo.gl/SMU2z34uDcfM7VBr9)
+is an amazing spot for a beer and tapas. There are second hand and vintage shops in this area.
+
+## Day 3: Plaza Espanya And Montjuic
+
+You can start this day in [Plaza Espanya](https://maps.app.goo.gl/eJLd7EHrzSMh9Hqh6) and go up Montjuic
+passing by [Montjuic Magic Fountain](https://maps.app.goo.gl/MJ356HkWfNYBXUwa9),
+[National Museum of Catalan Art](https://maps.app.goo.gl/QeVTuFHJVHNWVCyp6) (wich is also worth visiting inside, but nothing special)
+and going up to the [Montjuic Castle](https://maps.app.goo.gl/V9cmEqJoSRtJYfrw9).
+
+You can also see in this are the [Cactus Garden](https://maps.app.goo.gl/8iLk36cdEkSj98qK7).
+
+This is all doable in half a day. Fill the rest of the day with anything that inspires you.
 
 # MORE PLACES TO VISIT
-
-### Farolas de Antoni Gaudi
-
-One of the first creations of Antoni Gaudi are some lampost
 
 ### Palm Trees in Plaza Reial
 
@@ -58,6 +86,46 @@ planter where they are standing.
 
 ### [Monument to Columbus](https://maps.app.goo.gl/E428Zegn4PdAA6x39)
 
+### More Gaudi
+
+Besides what is mentioned in Day 2, Gaudi left his mark with several other creations that are scattered
+in the city.
+
+One of the first work from Gaudi are the [Modernist Lampost](https://maps.app.goo.gl/xmWecabJawSsqWTy5)
+you can find in Plaza Reial and in other spots around the city. Most of the people ignore that these
+lamp post are by Gaudi.
+
+One other place worth visiting is the [Park Guell](https://maps.app.goo.gl/d9vXAAVTVEd689mK9).
+Tickets always sold out so book in advance.
+
+Some other buildings from Gaudi: [Finca Guell](https://maps.app.goo.gl/nyRM4Seei59wByVa6),
+[Casa Vicens](https://maps.app.goo.gl/3w77DSd9WrGaJKk87) and [Bellesguard](https://maps.app.goo.gl/nAokmvtztZQwdniN6).
+
+### [Carrer Consell De Cent](https://maps.app.goo.gl/GeJWRRSnCVqmLn1Z9)
+
+The city councill is pursuing an effort to make the city less car dependant and as part of this
+effort they are gradually opening streets primarly to foot traffic and reducing the space allocated
+to cars.
+
+A beautiful example is Carrer Consell De Cent which is a very long street that has been entirely
+transformed.
+
+It is highly reccomended to take a walk on this street to see how a city could look like if we
+removed cars.
+
+A must, especially if you come from a car dependant place.
+
+### Camp Nou
+
+If you are a football fan, but even if you could not care less, it is worth considering going to a
+Barcelona match. Amazing energy.
+
+### [Bogatell Beach](https://maps.app.goo.gl/X9RshSttdJCs8Hwp8)
+
+If you come during the summer, or in any seson beside winter really, the Bogatell Beach is where
+you want to go. It is no far from the city center but is usually far less crowded than other beaches
+like Barceloneta, the crowd is usually better and there are amazing ciringuitos where to have a
+drink or eat something after the beach.
 
 # CUISINE
 
