@@ -1,5 +1,5 @@
 ---
-title: TBD
+title: Creativity and the Cost of a Shared Attention
 layout: post
 permalink: /creativity/
 mermaid: true
@@ -11,8 +11,8 @@ uploaded to youtube, x photos to instagram, x tweets, x books and x films are re
 Yet, the human attention span is finite, shrinking and is ever more concentrated towards a smaller
 set of content.
 
-What is worste yet, with globalization and mass media, this small set of content tends to be
-the very similar across regions and culture.
+What is worste yet, with globalization and mass media, this small set of content is asyntotically converging.
+Even across regions and culture.
 
 (Here I want to bring the example of the meme. show the same meme template with different meme in
 many languages. Say that this is probably not where it all started, but that it is pretty obvious)
@@ -20,6 +20,11 @@ many languages. Say that this is probably not where it all started, but that it 
 (Here I will make the example of movies. I bet that the most famous movie in US in 2025 was very successfull
  all over the world, not just in the US. I want to show the movie image translated in four or five languages
 to convey that we are all paying attention to the same things)
+
+<figure>
+  <img src="{{ '/assets/creativity/zootopia-2-localized-posters.png' | relative_url }}" alt="Zootopia 2 posters with localized titles multiple languages.">
+  <figcaption>TODO</figcaption>
+</figure>
 
 (Here in general I will say that in modern media the winner takes it all. No matter what media you take
 as an example, the best in the category takes orders of magnitude more attention than the average one.
@@ -31,17 +36,38 @@ on what other people like. Concentration then becomes a feature of algorithmic f
 
 Now we have a common ground.
 
-You probablt have heard about what I just expalin from slighly different perspectives used to justify
-a variety of things such as: diminishing attentions span, more radicalized governments, doom spending,
+You probably have heard about what I just expalin from slighly different perspectives used to justify
+a host of phenomenas: diminishing attentions span, more radicalized governments, doom spending,
 depression and anxiety.
 
 The point I am going to make is that apart from all that, this is also hurting creativity.
 
-(output depends on the inputs)
+## What we experience influences our imaginative repertoire
 
-(if the inputs are the same or similar for everyone, everyone will think the same: everyone will
-face the same problems, everyone will try to fix them in the same way, everyone will use the same approach
-to fix these problems)
+
+(Tetris effect)
+(profile drawing)
+
+The point I am trying to make is that our experiences seem to have a non trivial impact on how we
+interpretate the environment around us and what we are capable of conceiving.
+
+Paying attention to varied stimulus can definitely make our attnetion, perception and imagination
+more broad. The point I tried to make in the introduction is that the information diet is converging
+towards homogeneity.
+
+I might also try to argue that the experience quality in itself is lowering but that is not
+necessary for the broader argument of this post.
+
+So if our imaginative repertoir, the novel things that we are capable of perceiving, imagine or
+think is dictated by the information that what we consume, and if everyone consumes the same
+informatino: the entropy in human ideas is set to collapse.
+
+I am not necessarly saying that everyone will face the same problems, everyone will try to fix them
+in the same way, everyone will use the same approach to fix these problems. But I am convinced
+that the human effort, within the space of possibilities, will only focus on a narrow slice.
+
+The person on an homogenized experience diet, will simply not be able to get out of this narrow slice
+because they lack the prerequisite to be able to escape the box and think outside this narrow slice.
 
 (We need to take care of the inputs, the outputs will follow.)
 
