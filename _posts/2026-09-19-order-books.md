@@ -11,3 +11,6 @@ The take aways I derived from this paper are:
 1 - A bid-ask spread can exist purely because of asymmetric information.
 2 - So in a hypothetical case where information asymmetry is impossible, even assuming zero transaction costs and so on, there would still be a bid-ask spread because the market maker has inventory risk and wants to have their inventory balanced 50/50, so if it deviates too much from 50/50 they would need to adjust their bid-ask for the inventory to be balanced again.
 3- In cases where a market finishes at a certain date, like an option or like polymarket markets, the spread is bigger further away from the end date and becomes smaller as the date approaches. A hypothetical insider with more information than the rest would profit more the earlier he has the alpha.
+
+# [High-frequency trading in a limit order book](https://people.orie.cornell.edu/sfs33/LimitOrderBook.pdf)
+
