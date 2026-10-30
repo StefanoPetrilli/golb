@@ -192,16 +192,22 @@ pre { background-color: var(--surface-color);  border: none;  padding: 0;  margi
 /**
  * Video containers - side by side layout
  */
-.video-container {
+.video-container,
+.figure-row {
   display: flex;
   gap: 20px;
   width: 100%;
   margin: 20px 0;
 }
 
-.video-container > div {
+.video-container > div,
+.figure-row > figure {
   flex: 1;
   min-width: 0;
+}
+
+.figure-row > figure {
+  margin: 0;
 }
 
 .video-container iframe {
@@ -216,7 +222,8 @@ pre { background-color: var(--surface-color);  border: none;  padding: 0;  margi
 
 /* Responsive: stack videos vertically on small screens */
 @media only screen and (max-width: 768px) {
-  .video-container {
+  .video-container,
+  .figure-row {
     flex-direction: column;
   }
 }

@@ -46,7 +46,41 @@ The point I am going to make is that apart from all that, this is also hurting c
 
 
 (Tetris effect)
-(profile drawing)
+
+In 1877, Corrado Ricci documented that when children were tasked to draw a profile, 70% of the
+times, they would still include both eyes. These are referenced in literature as split faces.
+
+<div class="figure-row">
+  <figure>
+    <img src="{{ '/assets/creativity/doramaar.png' | relative_url }}" alt="Picasso's portrait of Dora Maar, the same face shown from several angles at once.">
+    <figcaption>Picasso's portrait of Dora Maar: one face, many viewpoints.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/creativity/split-face.png' | relative_url }}" alt="A child's drawing of two figures, a face drawn from more than one viewpoint.">
+    <figcaption>A child's drawing: the face is drawn from more than one viewpoint at once.</figcaption>
+  </figure>
+</div>
+
+Altough Ricci is the first one to document this phenomenon, in the following decades similar
+experiments have been replicated over and over both across europe and united state.
+
+This phenomenon was initially attributed to the normal development of children: drawing a profile
+face is requires a mastery level in drawing that is not achieved untill around 11 years old (when the
+split face tend to disappear), the split faces untill that moment is just a consequence of lack
+of ability by the children.
+
+This sounds like a reasonable argument but felt apart as the split faces almost entirely disappeared
+from children's representations around 1950s.
+
+If the split face is an inherint feature of children's development, how come it was so prominent in
+1890s and disappeared 60 years later?  This is the question that Marjorie and Brent Wilsono posed in
+in their 1982 paper.
+
+This question is then answered in their 1984 paper where they not th
+
+https://www.jstor.org/stable/20715339?googleloggedin=true&seq=12
+
+https://www.jstor.org/stable/20715559
 
 The point I am trying to make is that our experiences seem to have a non trivial impact on how we
 interpretate the environment around us and what we are capable of conceiving.
