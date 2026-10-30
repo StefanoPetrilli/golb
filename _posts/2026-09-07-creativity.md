@@ -11,8 +11,8 @@ uploaded to youtube, x photos to instagram, x tweets, x books and x films are re
 Yet, the human attention span is finite, shrinking and is ever more concentrated towards a smaller
 set of content.
 
-What is worste yet, with globalization and mass media, this small set of content is asyntotically converging.
-Even across regions and culture.
+What is worste yet, with globalization and mass media, this small set of content is asyntotically
+converging even across regions and cultures.
 
 (Here I want to bring the example of the meme. show the same meme template with different meme in
 many languages. Say that this is probably not where it all started, but that it is pretty obvious)
@@ -45,10 +45,8 @@ The point I am going to make is that apart from all that, this is also hurting c
 ## What we experience influences our imaginative repertoire
 
 
-(Tetris effect)
-
-In 1877, Corrado Ricci documented that when children were tasked to draw a profile, 70% of the
-times, they would still include both eyes. These are referenced in literature as split faces.
+In 1887, Corrado Ricci documented that when children drew a profile, 70% of the
+times, they would still include both eyes. These are referenced in literature as two-eyed profiles.
 
 <div class="figure-row">
   <figure>
@@ -62,53 +60,102 @@ times, they would still include both eyes. These are referenced in literature as
 </div>
 
 Altough Ricci is the first one to document this phenomenon, in the following decades similar
-experiments have been replicated over and over both across europe and united state.
+studies found the same over and over both across europe and united state.
 
 This phenomenon was initially attributed to the normal development of children: drawing a profile
-face is requires a mastery level in drawing that is not achieved untill around 11 years old (when the
-split face tend to disappear), the split faces untill that moment is just a consequence of lack
-of ability by the children.
+face is requires a mastery level in drawing that is not achieved untill later in life,
+the two-eyed profiles untill that moment are just a consequence of lack of ability by the children.
 
-This sounds like a reasonable argument but felt apart as the split faces almost entirely disappeared
-from children's representations around 1950s.
+This sounds like a reasonable argument but felt apart as the two-eyed profiles disappeared
+from children's drawings: by the early 1950s they were gone.
 
 If the split face is an inherint feature of children's development, how come it was so prominent in
-1890s and disappeared 60 years later?  This is the question that Marjorie and Brent Wilsono posed in
+1880s and disappeared 70 years later? This is the question that Marjorie and Brent Wilson posed
 in their 1982 paper.
 
-This question is then answered in their 1984 paper where they not th
+What they end up suggest is that what children draw is not an inherint characteristic of the
+development phase they are in but depends on what other images they have available. When comics and
+cheap illustrations arrived, children had many more models to copy from and the two-eyed profiles
+faded away.
 
-https://www.jstor.org/stable/20715339?googleloggedin=true&seq=12
-
-https://www.jstor.org/stable/20715559
+In their 1984 paper they compare children from two schools in egypt. The school are just 30 kilometers
+away but one is in a village while the other is in Cairo. The children that attend the latter school
+come from middle class families and have access to western textbooks and comics. The children from
+this school don't produce two-eyed profiles.
+On the other hand, children from the village school, who, on the contrary had access to less images
+on the same task, 12% end up drawing split faces.
 
 The point I am trying to make is that our experiences seem to have a non trivial impact on how we
 interpretate the environment around us and what we are capable of conceiving.
 
-Paying attention to varied stimulus can definitely make our attnetion, perception and imagination
-more broad. The point I tried to make in the introduction is that the information diet is converging
+Being exposed to diverse stimulus seems to make our attention, perception and imagination
+broader.
+
+If we agree on the point that: what we consume dictate what we can think and produce. The importance
+of the next logical step also becomes clear.
+
+The point I tried to make in the introduction is that the information diet is converging
 towards homogeneity.
 
-I might also try to argue that the experience quality in itself is lowering but that is not
-necessary for the broader argument of this post.
+We could also argue that not just the diversity is decreasing, also the quality is lowering but I
+will leave it aside for this post as it's not even necessary for the argument I am trying to make.
 
 So if our imaginative repertoir, the novel things that we are capable of perceiving, imagine or
-think is dictated by the information that what we consume, and if everyone consumes the same
-informatino: the entropy in human ideas is set to collapse.
+think is dictated by the information that we consume, and if everyone consumes the same
+information: the entropy in human ideas is set to collapse.
 
-I am not necessarly saying that everyone will face the same problems, everyone will try to fix them
-in the same way, everyone will use the same approach to fix these problems. But I am convinced
-that the human effort, within the space of possibilities, will only focus on a narrow slice.
+I am convinced that this would lead the human effort to focus on a narrow slice within the space
+of possibilities.
 
-The person on an homogenized experience diet, will simply not be able to get out of this narrow slice
-because they lack the prerequisite to be able to escape the box and think outside this narrow slice.
+As everyone will only two-eyed profiles all the time, everyone will end up drawing only two-eyed profiles.
+The person on an homogenized experience diet, will simply not be able to get out of this narrow space
+of possibilities because they lack the prerequisite to be able to escape the box and think outside
+this narrow slice.
 
+## The future is now
+
+(Some fields, like science, are ahead of the curve. The winner take it all attention structure emerged in science
+much before other fields. This is way for science the effects of this kind of mechanics can already be measured.
+And we can see that it is one of the reason that is making impact plummet.
+The number of high impact papers remained constant despite a big increase in total papers.)
+
+We can already see the effects of homogeneization.
+
+No matter how you look at it, it seems pretty evident that [papers and patents are becoming less disruptive over time](https://doi.org/10.1038/s41586-022-05543-x).
+
+This is certainly the consequence of multiple factors but it is interesting for the sake of this
+discussion to mention that one of the factor is homogeneization: the diversity of citation is collapsing,
+the popularity of the top 1% papers is ever increasing and the semantic diversity of the top 1% paper is also collapsing.
+
+{% include quote.html
+   text="Over time, scientists and inventors are increasingly citing the same previous work, and that previous work is becoming more topically similar."
+   author="Michael Park, Erin Leahey & Russell J. Funk"
+   source="Papers and patents are becoming less disruptive over time, Nature (2023)"
+   url="https://doi.org/10.1038/s41586-022-05543-x" %}
+
+## The Antidote
+
+I think that society as a whole is irreversibly hooked on content homogeneization.
 (We need to take care of the inputs, the outputs will follow.)
 
 (To take care of the inputs, we need to avoid algorithmic selection fo the informations we consume)
 
+(Tinfoil hat: this is all to increase margins. If we have common grounds it's easier to sell the same
+tshirt to everyone.)
+
+(If everyone is working in the same narrow field, there must be low hanging fruit outside of that field)
 (Final: Having an out of distribution tought will be highly rewarded in the future as it will be an highly
 rare capabilty.)
+
+Literature:
+
+- What we experience influences our imaginative repertoire: the papaer cited in this chapter are
+  - Wilson, M., & Wilson, B. (1982). The case of the disappearing two-eyed profile: or how little
+    children influence the drawings of little children. Review of Research in Visual Arts Education,
+    8(1), 19–32. https://www.jstor.org/stable/20715339
+  - Wilson, B., & Wilson, M. (1984). Children's drawings in Egypt: Cultural style acquisition as
+    graphic development. Visual Arts Research, 10(1), 13–26. https://www.jstor.org/stable/20715559
+
 
 TO read:
 

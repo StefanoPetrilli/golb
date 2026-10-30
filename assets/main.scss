@@ -26,3 +26,44 @@ article.post figure figcaption {
   margin-top: 8px;
   line-height: 1.5;
 }
+
+/* Attributed quotes: {% include quote.html text="..." author="..." source="..." url="..." %} */
+article.post figure.quote {
+  position: relative;
+  margin: 28px 0;
+  padding: 18px 22px 14px 52px;
+  text-align: left;
+  background: var(--surface-color);
+  border-left: 3px solid var(--accent-color);
+}
+article.post figure.quote::before {
+  content: "\201C";
+  position: absolute;
+  top: 2px;
+  left: 14px;
+  font-family: Georgia, serif;
+  font-size: 56px;
+  line-height: 1;
+  color: var(--accent-color);
+}
+article.post figure.quote blockquote {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.15em;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-color);
+  white-space: normal;
+}
+article.post figure.quote figcaption {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 0.9em;
+  font-style: normal;
+  color: var(--muted-text-color);
+}
+article.post figure.quote .quote-author {
+  color: var(--text-color);
+  font-weight: bold;
+}
