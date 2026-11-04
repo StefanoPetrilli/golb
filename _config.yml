@@ -1,15 +1,21 @@
 # Example Site settings
 
 url: "https://stefano.petrilli.xyz"
+title: "Stefano Petrilli"
 
 header_pages:
   - index.md
   - about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'Did you like it? Let me know at stefano [at] petrilli.xyz or connect with me on <a href="https://www.linkedin.com/in/stefanoperilli">LinkedIn</a>'
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+
+# RSS/Atom feed (/feed.xml): publish only each post's excerpt, not the full text
+feed:
+  excerpt_only: true
 
 # Theme
 # Single built-in style: Noctis Bordo-inspired dark palette

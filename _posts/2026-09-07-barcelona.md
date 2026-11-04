@@ -1,6 +1,7 @@
 ---
 title: My Personal Guide to Barcelona
 layout: post
+excerpt: "My personal guide to Barcelona: a three-day itinerary, more places worth visiting, what to eat, and how to get around."
 permalink: /barcelona/
 ---
 

@@ -5,6 +5,7 @@ gemspec
 
 
 gem 'webrick'
+gem 'jekyll-feed'
 
 # Use libsass via jekyll-sass-converter 2.x to avoid Dart Sass
 # deprecation warnings for @import during local development.
