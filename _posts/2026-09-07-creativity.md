@@ -5,8 +5,9 @@ permalink: /creativity/
 mermaid: true
 ---
 
-The amount of information available wordlwide is ever expanding. Every day x amount of video are
-uploaded to youtube, x photos to instagram, x tweets, x books and x films are released every day.
+The amount of information available wordlwide is ever expanding. Every day 720,000 hours of video
+are uploaded to youtube, 95 million photos and videos to instagram, 500 million tweets, 6,000 books
+and 26 films are released every day.
 
 Yet, the human attention span is finite, shrinking and is ever more concentrated towards a smaller
 set of content.
@@ -14,8 +15,17 @@ set of content.
 What is worste yet, with globalization and mass media, this small set of content is asyntotically
 converging even across regions and cultures.
 
-(Here I want to bring the example of the meme. show the same meme template with different meme in
-many languages. Say that this is probably not where it all started, but that it is pretty obvious)
+Take movies as an example. The top movies are seen by mind-boggling amount of people and result
+in gross earnings that are bigger than the GDP of small countries.
+Comparatively, all the other movies have very small audiences and grossing.
+
+This was the case already 2005 when [Sinha & Pan]( arXiv:physics/0504198) first reported
+that movis in the US follow a power law. Back in the 00s, the top 10 movies of the decade took
+25% of the annual box offices, in 10s that went up to 30% and in this decade it is hovering 40%
+according to [Statista](https://www.statista.com/chart/34838/share-of-top-10-movies-in-north-american-box-office).
+
+{% include power-law-slider.html %}
+
 
 (Here I will make the example of movies. I bet that the most famous movie in US in 2025 was very successfull
  all over the world, not just in the US. I want to show the movie image translated in four or five languages
@@ -30,6 +40,11 @@ to convey that we are all paying attention to the same things)
 as an example, the best in the category takes orders of magnitude more attention than the average one.
 This was probably already the case many years ago but before globalization and informatics at least we
 had fragmentations among countries.)
+
+<figure>
+  <img src="{{ '/assets/creativity/distracted-boyfriend-real-localized.png' | relative_url }}" alt="Four real distracted boyfriend memes with captions in English, Hindi, Portuguese and Spanish.">
+  <figcaption>TODO</figcaption>
+</figure>
 
 (Social media makes it even worst. Explain here that social media decide what to show us based
 on what other people like. Concentration then becomes a feature of algorithmic feeds.)

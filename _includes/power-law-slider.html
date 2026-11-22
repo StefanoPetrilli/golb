@@ -1,0 +1,68 @@
+<div class="power-slider" id="power-slider">
+  <p class="power-slider-intro">Pick a box office level, then see how much rarer the next level up is. Each film is drawn from a model where the chance of earning at least <em>z</em> falls as 1/z&sup2;, the pattern reported for US box office.</p>
+
+  <label for="ps-y">Earnings level: <output id="ps-y-out"></output></label>
+  <input type="range" id="ps-y" min="0" max="3" step="0.01" value="1">
+
+  <label for="ps-x">Increase the bar by: <output id="ps-x-out"></output></label>
+  <input type="range" id="ps-x" min="0" max="500" step="1" value="10">
+
+  <p class="power-slider-result" id="ps-result" aria-live="polite"></p>
+  <p class="power-slider-note">Model assumption: films earning at least $1M are the population, and the probability of earning at least z follows (1/z)&sup2; with z in millions. Illustrative, not a fit to the full dataset.</p>
+</div>
+
+<script>
+(function () {
+  var XMIN = 1; // $ millions, lower bound of the model
+  var yInput = document.getElementById('ps-y');
+  var xInput = document.getElementById('ps-x');
+  var yOut = document.getElementById('ps-y-out');
+  var xOut = document.getElementById('ps-x-out');
+  var result = document.getElementById('ps-result');
+
+  // Probability that a random film earns at least z ($M), Pareto tail with exponent 2
+  function chanceAtLeast(z) {
+    return z <= XMIN ? 1 : Math.pow(XMIN / z, 2);
+  }
+
+  function money(m) {
+    if (m >= 1000) return '$' + (m / 1000).toLocaleString('en-US', { maximumFractionDigits: 2 }) + 'B';
+    return '$' + Math.round(m).toLocaleString('en-US') + 'M';
+  }
+
+  function oneIn(p) {
+    return Math.round(1 / p).toLocaleString('en-US');
+  }
+
+  function update() {
+    var y = Math.pow(10, parseFloat(yInput.value)); // $M, log scale from $1M to $1B
+    var x = parseFloat(xInput.value);               // $M added to the bar
+    var z = y + x;
+
+    var pY = chanceAtLeast(y);
+    var pZ = chanceAtLeast(z);
+    var cut = x === 0 ? 0 : Math.round((1 - pZ / pY) * 100);
+
+    yOut.textContent = money(y);
+    xOut.textContent = '+' + money(x);
+
+    result.innerHTML =
+      'About <strong>1 in ' + oneIn(pY) + '</strong> films earns at least ' + money(y) + '. ' +
+      'Raising the bar to ' + money(z) + ' makes it <strong>1 in ' + oneIn(pZ) + '</strong>' +
+      (x === 0 ? '.' : ', ' + cut + '% fewer films.');
+  }
+
+  yInput.addEventListener('input', update);
+  xInput.addEventListener('input', update);
+  update();
+})();
+</script>
+
+<style>
+  .power-slider { margin: 1.5em 0; padding: 1em 1.2em; border: 1px solid #ccc; border-radius: 6px; }
+  .power-slider label { display: block; margin-top: 0.8em; font-weight: 600; }
+  .power-slider output { font-weight: 400; font-variant-numeric: tabular-nums; }
+  .power-slider input[type="range"] { width: 100%; }
+  .power-slider-result { margin-top: 1em; font-size: 1.05em; }
+  .power-slider-note, .power-slider-intro { font-size: 0.9em; opacity: 0.8; }
+</style>
