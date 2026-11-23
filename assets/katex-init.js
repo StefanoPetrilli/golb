@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // ponytail: default delimiters ($$, \( \), \[ \]); no single-$ so prose with a
-  // literal dollar sign is safe. Add {left:'$',right:'$'} here if inline math is needed.
+  // ponytail: $...$ and $$...$$ delimiters are enabled, so a literal dollar sign in prose must be written \$.
   if (typeof renderMathInElement !== 'undefined') {
-    renderMathInElement(document.body);
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false },
+        { left: '\\[', right: '\\]', display: true }
+      ]
+    });
   }
 });
