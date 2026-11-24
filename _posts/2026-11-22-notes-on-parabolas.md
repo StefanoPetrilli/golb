@@ -30,7 +30,7 @@ and plot the corresponding value.
 We can infer A LOT from the constants when a parabola is written in the standard form:
 - $a$: tells us both the direction and the vertical stretch of the parabola. If $a$ is negative,
 the parabola will point downward, if it is positive, it will point upward. As $a$ approaches
-0, the parabola stretches longer. If $a$ is 0, then it is not a parabola anymore but a segment.
+0, the parabola stretches longer. If $a$ is 0, then it is not a parabola anymore but a straight line.
 - $c$: is the y-intercept aka the point of the parabola which touches the y-axis.
 
 The determinans ($\Delta$), taken by itself, tells us in how many points the parabola intersects
@@ -41,7 +41,7 @@ the x axis.
 
 The formual to calculate it is: 
 
-$$\Delta = b^2-4ac$$.
+$$\Delta = b^2-4ac$$
 
 $k$ tells us the exact numerical y-coordinate of the turning point of the variable.
 The consequence is that:
@@ -53,7 +53,7 @@ The formula to calculate it is
 
 $$k = - \frac{\Delta}{4a}$$
 
-$k$ tells us the exact numerical x-coordinate of the turning point.
+$h$ tells us the exact numerical x-coordinate of the turning point.
 
 $$h = -\frac{b}{2a}$$
 
@@ -84,3 +84,8 @@ $$h = -\frac{b}{2a}$$
 The canonical form of a parabola is:
 
 $$ y = a(x-h)^2+k $$
+
+The vertex is now $(h, k)$.
+
+If the parabola has real roots $x_1$ and $x_2$, the vertex lies halfway between them:
+$h = \frac{x_1 + x_2}{2}$, and $k = f(h)$.
