@@ -1,5 +1,5 @@
 ---
-title: How video compression takes advantage of your eyes
+title: How Video Compression Takes Advantage of Your Eyes
 layout: post
 permalink: /how-video-compression-takes-advantage-of-your-eyes/
 ---

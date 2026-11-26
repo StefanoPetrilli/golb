@@ -1,8 +1,9 @@
 ---
-title: Notes on parabolas
+title: Notes on Parabolas
 layout: post
 permalink: /parabolas/
 math: true
+section: math
 ---
 
 If we assume for a second constant gravity and zero air resistance, if when throwing a stone we

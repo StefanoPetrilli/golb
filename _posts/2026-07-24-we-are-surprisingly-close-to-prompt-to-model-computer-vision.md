@@ -1,5 +1,5 @@
 ---
-title: We are surprisingly close to prompt-to-model in computer vision
+title: We Are Surprisingly Close to Prompt-to-Model in Computer Vision
 layout: post
 permalink: /prompt-to-model/
 ---

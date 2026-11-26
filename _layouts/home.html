@@ -5,13 +5,24 @@ layout: default
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
-{%- if site.posts.size > 0 -%}
+{%- assign math = site.posts | where: "section", "math" -%}
+{%- assign posts = site.posts | where_exp: "p", "p.section != 'math'" -%}
+{%- assign date_format = "%Y-%m-%d" -%}
+
+<div class="home-col">
+  <h2>Posts</h2>
   <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
+    {%- for post in posts -%}
+    <li>[ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
     {%- endfor -%}
   </ul>
-{%- endif -%}
+</div>
+
+<div class="home-col">
+  <h2>Math Notes</h2>
+  <ul>
+    {%- for post in math -%}
+    <li>[ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+    {%- endfor -%}
+  </ul>
+</div>

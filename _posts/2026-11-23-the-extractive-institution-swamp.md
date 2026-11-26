@@ -1,5 +1,5 @@
 ---
-title: The swamp of extractive institutions
+title: The Swamp of Extractive Institutions
 layout: post
 permalink: /extractive-institutions/
 math: true

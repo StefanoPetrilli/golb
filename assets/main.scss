@@ -8,6 +8,10 @@
 
 @include theme();
 
+/* Homepage: Math Notes and Posts stacked, full width */
+.home-col { margin-bottom: 24px; }
+.home-col h2 { font-size: 16px;  margin: 0 0 8px;  color: var(--accent-color); }
+
 /* Post figure styling */
 article.post figure {
   margin: 24px 0;

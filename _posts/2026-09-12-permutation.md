@@ -1,8 +1,9 @@
 ---
-title: Notes on combinatorics
+title: Notes on Combinatorics
 layout: post
 permalink: /combinatorics/
 math: true
+section: math
 ---
 
 Yesterday I was hanging out with a friend and we ended up talking about combinatorics.

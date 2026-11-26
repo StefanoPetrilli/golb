@@ -1,5 +1,5 @@
 ---
-title: Lessons from a weekend building local AI workflows
+title: Lessons from a Weekend Building Local AI Workflows
 layout: post
 permalink: /building-ai-workflows/
 mermaid: true
